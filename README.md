@@ -1,5 +1,7 @@
-**Matrix column entries (attributes):**
-name - ASCII subject name and recording number
+**Parkinsons Detection Using Machine Learning**
+This Machine Learning model predicts if the patient has parkinsons or not based on the following parameters:-
+
+Matrix column entries (attributes):r
 MDVP:Fo(Hz) - Average vocal fundamental frequency
 MDVP:Fhi(Hz) - Maximum vocal fundamental frequency
 MDVP:Flo(Hz) - Minimum vocal fundamental frequency
@@ -11,3 +13,5 @@ status - Health status of the subject (one) - Parkinson's, (zero) - healthy
 RPDE,D2 - Two nonlinear dynamical complexity measures
 DFA - Signal fractal scaling exponent
 spread1,spread2,PPE - Three nonlinear measures of fundamental frequency variation
+
+For this model I have used SVM(Support Vector Machine) which a supervised learning model, it gives an accuracy of 91%.
